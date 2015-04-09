@@ -431,7 +431,8 @@ public class MainActivity extends Activity implements RecognitionListener {
                 .addBullet("Bring the your pinched tie to the middle of the cross over")
                 .addBullet("The bow should form with a fold on the left side")
                 .setVideoResource(R.raw.bvid4)
-                .setImageResource(R.drawable.bpic4));
+                .setImageResource(R.drawable.bpic4)
+                .setTextSize(18));
 
         cardInfos.add(new CardInfo(cardInfos.size(), R.layout.fragment_main)
                 .setHeader("Middle Stripe")
